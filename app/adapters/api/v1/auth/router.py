@@ -1,7 +1,7 @@
 import uuid
+import os
 from fastapi import APIRouter, Depends, HTTPException
 from sqlalchemy.orm import Session
-import os
 import secrets
 
 from app.application.dto.auth.register_dto import RegisterDTO

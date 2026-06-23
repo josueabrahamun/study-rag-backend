@@ -21,6 +21,9 @@ if config.config_file_name is not None:
 from app.infrastructure.persistence.models.database import Base
 from app.infrastructure.persistence.models.user_model import UserModel
 from app.infrastructure.persistence.models.refresh_token_model import RefreshTokenModel
+from app.infrastructure.persistence.models.user_settings_model import UserSettingsModel
+from app.infrastructure.persistence.models.role_model import RoleModel
+from app.infrastructure.persistence.models.document_model import DocumentModel
 
 target_metadata = Base.metadata
 # other values from the config, defined by the needs of env.py,
